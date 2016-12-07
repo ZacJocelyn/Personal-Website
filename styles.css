@@ -1,0 +1,48 @@
+body{
+  width: 100vw;
+  height: 100vh;
+}
+
+/*nav bar--------------------------------*/
+nav {
+    background-color: rgba(7, 41, 98, 0.61)!important;
+    width: 100vw;
+    height: 22vh;
+    display: flex;
+    justify-content: space-between;
+    background: none;
+}
+.circle-header {
+    padding-top: 8%;
+    border-radius: 50%;
+    width: 20vh;
+    height: 20vh;
+    margin-top: -7%;
+}
+.parallax {
+    background-image: url("iaa_5knvar4-scott-gruber.jpg");
+    min-height: 90%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav{
+  text-decoration: none;
+  border-radius: 5%;
+  border-color: white;
+  border: 2px solid;
+  font-size: 2em;
+  color: white;
+  margin-top: 7vh;
+  margin-bottom: 4vh;
+}
+.one{
+  margin-left: 2em;
+  padding: 0.5em;
+}
+
+.two{
+  margin-right: 2em;
+  padding: 0.5em;
+}
