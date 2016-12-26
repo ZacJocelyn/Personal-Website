@@ -19,6 +19,10 @@ nav {
     height: 20vh;
     margin-top: -7%;
 }
+.circle-header:hover{
+  margin: 0;
+  padding-top: 0;
+}
 .parallax {
     background-image: url("iaa_5knvar4-scott-gruber.jpg");
     min-height: 90%;
@@ -26,6 +30,7 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
 }
 .nav{
   text-decoration: none;
@@ -37,6 +42,10 @@ nav {
   margin-top: 7vh;
   margin-bottom: 4vh;
 }
+.nav:hover{
+  font-size: 2.5em;
+  border: 5px solid;
+}
 .one{
   margin-left: 2em;
   padding: 0.5em;
@@ -45,4 +54,11 @@ nav {
 .two{
   margin-right: 2em;
   padding: 0.5em;
+}
+
+/*links-----------------------------------*/
+.row{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10vh;
 }
